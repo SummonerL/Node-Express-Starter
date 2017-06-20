@@ -13,6 +13,4 @@ COPY . /usr/src/app
 
 RUN npm install --silent && npm install -g nodemon --silent && npm install -g migrate-mongoose --silent
 
-EXPOSE 80
-
 CMD [ "npm", "start" ]
